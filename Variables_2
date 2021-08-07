@@ -1,0 +1,7 @@
+#Create a program, which assepts for input three numbers in three lines - time in minutes (X), hours on the clock (H) and minutes on the clock (M). Determine the values at the dial after the time in minutes (X) passes. Output must be given in two lines.
+
+x = int(input())
+h = x // 60 
+m = x % 60 
+print (h) 
+print (m)
